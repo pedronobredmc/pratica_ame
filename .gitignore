@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+rfid_db.json
+src/model/model.py

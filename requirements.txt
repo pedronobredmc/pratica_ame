@@ -1,0 +1,6 @@
+numpy>=1.24
+# Para visualizações (opcional):
+matplotlib>=3.7
+# Para análise exploratória (opcional):
+jupyter>=1.0
+pandas>=2.0
