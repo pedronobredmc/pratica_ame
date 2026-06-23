@@ -144,7 +144,7 @@ GND         ──────────────►  GND
 RST         ──────────────►  GP20
 3.3V        ──────────────►  3.3V (pino 36)
 
----
+
 ```
 
 ## 💻 Como usar (REPL)
@@ -186,7 +186,9 @@ O usuário será salvo automaticamente no rfid_db.json.
 Encoste um cartão cadastrado para disparar a inferência LSTM:
 
 [NORMAL    ] UID=A3F2B1C0  User_A3F2  conf=97%  T=2ms  14:32:15  hist=1/8
+
 [NORMAL    ] UID=A3F2B1C0  User_A3F2  conf=95%  T=2ms  14:45:10  hist=2/8
+
 [SUSPEITO  ] UID=A3F2B1C0  User_A3F2  conf=88%  T=2ms  03:17:11  hist=3/8
 
 
