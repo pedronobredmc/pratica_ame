@@ -145,6 +145,8 @@ RST         ──────────────►  GP20
 3.3V        ──────────────►  3.3V (pino 36)
 
 ---
+```
+
 ## 💻 Como usar (REPL)
 
 Todo o controle do sistema é feito através da porta serial. Monitore a placa utilizando:
@@ -152,8 +154,11 @@ Todo o controle do sistema é feito através da porta serial. Monitore a placa u
 ```bash
 mpremote connect auto repl
 ---
+```
 
 ## 📖 INICIALIZAÇÃO
+```
+
 Conectando ao Wi-Fi...
 .....
 Wi-Fi conectado: 192.168.0.100
@@ -164,6 +169,7 @@ Horario sincronizado: 14:30:00
 Comandos no REPL:
   cadastrar('<UID_HEX>', <uid_hash>)
 Aguardando cartao...
+```
 
 ### Cadastrar novo cartão
 Quando você encosta um cartão não cadastrado, o log informará os dados necessários para o cadastro. No terminal do REPL, digite o comando sugerido:
@@ -171,8 +177,11 @@ Quando você encosta um cartão não cadastrado, o log informará os dados neces
 ```python
 >>> cadastrar('A3F2B1C0', 145)
   >> CADASTRADO: A3F2B1C0
+```
 
 O usuário será salvo automaticamente no rfid_db.json.
+```
+```
 
 ### Leitura normal
 Encoste um cartão cadastrado para disparar a inferência LSTM:
@@ -182,12 +191,16 @@ Encoste um cartão cadastrado para disparar a inferência LSTM:
 [SUSPEITO  ] UID=A3F2B1C0  User_A3F2  conf=88%  T=2ms  03:17:11  hist=3/8
 
 ---
+```
+```
 
 ## 📄 Licença
+```
 
 Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
 ---
+```
 
 <div align="center">
 <strong>Freenove Ultimate Starter Kit + Raspberry Pi Pico 2W</strong><br>
