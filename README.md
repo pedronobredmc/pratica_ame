@@ -153,7 +153,7 @@ Todo o controle do sistema é feito através da porta serial. Monitore a placa u
 
 ```bash
 mpremote connect auto repl
----
+
 ```
 
 ## 📖 INICIALIZAÇÃO
@@ -177,10 +177,9 @@ Quando você encosta um cartão não cadastrado, o log informará os dados neces
 ```python
 >>> cadastrar('A3F2B1C0', 145)
   >> CADASTRADO: A3F2B1C0
-```
 
 O usuário será salvo automaticamente no rfid_db.json.
-```
+
 ```
 
 ### Leitura normal
@@ -190,7 +189,7 @@ Encoste um cartão cadastrado para disparar a inferência LSTM:
 [NORMAL    ] UID=A3F2B1C0  User_A3F2  conf=95%  T=2ms  14:45:10  hist=2/8
 [SUSPEITO  ] UID=A3F2B1C0  User_A3F2  conf=88%  T=2ms  03:17:11  hist=3/8
 
----
+
 ```
 ```
 
@@ -199,7 +198,7 @@ Encoste um cartão cadastrado para disparar a inferência LSTM:
 
 Distribuído sob licença MIT. Veja [LICENSE](LICENSE) para detalhes.
 
----
+
 ```
 
 <div align="center">
